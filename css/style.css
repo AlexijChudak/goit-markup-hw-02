@@ -1,0 +1,10 @@
+.site-nav .link {
+  text-transform: capitalize;
+}
+p.text {
+  text-align: center;
+  font-size: 50px;
+  white-space: pre;
+  font-style: oblique;
+  font-family: "Hurricane", cursive;
+}
