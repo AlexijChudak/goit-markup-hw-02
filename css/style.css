@@ -22,7 +22,12 @@ ul {
 }
 
 /* header */
-
+.hat {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .logo {
   color: #000000;
   font-family: 'Raleway', sans-serif;
@@ -34,22 +39,14 @@ ul {
   color: var(--animation-color);
   font-family: 'Raleway', sans-serif;
 }
-.site-nav .link{
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
+ 
 .site-nav .link:hover,
 .site-nav .link:focus {
   color:var(--animation-color)
 }
 .auth-nav .link{
     color: var(--paragraph-text-color);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;  
+   
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -67,6 +64,7 @@ ul {
   color: var(--secondary-color);
 }
 .button {
+  font-family: inherit;
   background-color: var(--animation-color);
   font-weight: 700;
   font-size: 16px;
@@ -141,6 +139,10 @@ footer {
    
   color: var(--secondary-color);
 }
+.post:hover,
+.post:focus {
+  color: var(--animation-color)
+}
 .contacts {
   font-style: normal;
   font-size: 14px;
@@ -148,10 +150,15 @@ footer {
   
   color: rgba(255, 255, 255, 0.6);
 }
+.contacts:hover,
+.contacts:focus {
+  color: var(--animation-color)
+}
 /* portfolio */
 /* filter */
 
 .filter {
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -167,6 +174,8 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em; 
+
+color: var(--background-main-color);
 }
 .filtername {
 font-size: 16px;
