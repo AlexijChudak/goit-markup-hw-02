@@ -39,10 +39,15 @@ ul {
   color: var(--animation-color);
   font-family: 'Raleway', sans-serif;
 }
- 
+.site-nav .link{
+  color: currentColor; 
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color:var(--animation-color)
+  color: var(--animation-color)
+}
+.site-nav .link.current {
+ color: var(--animation-color)
 }
 .auth-nav .link{
     color: var(--paragraph-text-color);
